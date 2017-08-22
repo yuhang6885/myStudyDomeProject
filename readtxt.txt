@@ -41,6 +41,7 @@ git clone 自动关联
 //创建合并分支
 //创建dev 分支；
 git checkout -b dev
+//-b 参数表示创建并切换 相当于 git branch dev  + git checkout dev
 //查看当前分支
 git branch
 
