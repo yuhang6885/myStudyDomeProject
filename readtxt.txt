@@ -37,6 +37,14 @@ git checkout -- fileName
 
 //关联远程仓库
 git remote add origin https://github.com/tugenhua0707/testgit.git
+git clone 自动关联
+//创建合并分支
+//创建dev 分支；
+git checkout -b dev
+//查看当前分支
+git branch
+
+
 
 
 
