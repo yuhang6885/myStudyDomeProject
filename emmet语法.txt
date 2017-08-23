@@ -1,0 +1,21 @@
+emmet 语法
+
+后代 >
+兄弟 +
+父代 ^
+分组 ()
+重复 *
+自增符号 $ 从1开始
+@ ul>li.item$@-*5  ul>li.item$@3*5
+属性 []
+文本 {}
+
+: :link :meta input:checked
+
+
+
+
+
+
+
+
