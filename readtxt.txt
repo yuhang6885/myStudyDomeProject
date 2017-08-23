@@ -2,6 +2,9 @@ git study Api
 
 //初始化本地仓库
 git init
+/配置用户名密码
+git config --global user.email "邮箱地址"
+git config --global user.name "名字"
 //添加到缓存区
 git add . 
 //合并到 本地master
