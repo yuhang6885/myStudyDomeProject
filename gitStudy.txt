@@ -55,6 +55,24 @@ git checkout 分支名字
 
 //删除分支 删除dev 分支 查看分支
 git branch -d dev 
+//查看远端分支
+ git branch -a 
+//查看总共有多少分支
+git branch -vv
+
+//回退到某个版本 推向远端
+git push -f -u origin master
+//克隆远端的任意分支
+git clone -b branch name
+//推送到远端的任意分支
+git push origin branch name
+
+//查看远端仓库
+git remote -v
+//添加远程仓库:
+git remote add [name] [url]
+删除远程仓库：
+ git remote rm [name]
 
 
 
